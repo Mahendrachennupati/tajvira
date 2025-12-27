@@ -73,7 +73,7 @@
     <!-- Standards section start -->
     <section>
         <div class="container grid py-4 ">
-            <div class="col-12 md:col-5 sm:my-2 relative ">
+            <div class="col-12 md:col-6 sm:my-2 relative md:pr-8 ">
 
                 <div class="sticky top-0 w-full">
                     <span class="font-bold logo_orng">THE TAJVIRA STANDARD</span>
@@ -104,10 +104,10 @@
 
             </div>
 
-            <div class="col-12 md:col-7 ">
+            <div class="col-12 md:col-6 ">
                 <div class="grid px-1 md:px-4 ">
-                    <div class="col-12 md:col-6 " *ngFor="let item of qualityItems;let i=index">
-                        <div class="border-round-2xl qulity_container shadow-2 p-3 ">
+                    <div class="col-12 md:col-6 min-h-full" *ngFor="let item of qualityItems;let i=index">
+                        <div class="border-round-2xl qulity_container shadow-2 p-3 min-h-full">
                             <a class="quality-link ">
                                 <i class="pi" [ngClass]="item.icon"></i>
                             </a>
